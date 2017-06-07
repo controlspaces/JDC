@@ -1,0 +1,44 @@
+a{
+    text-decoration: none;
+}
+
+#misional{
+    width: 200px;
+    height: 200px;
+}
+
+#prestamo{
+    width: 200px;
+    height: 200px;
+}
+
+#misional_text{
+    text-align: center;
+    width: 190px;
+    top: 440px;
+    left: 281px;
+}
+
+#prestamo_text{
+    text-align: center;
+    width: 190px;
+    top: 440px;
+    left: 481px;
+}
+
+.content_modulos{
+    margin-top: 129px;
+    margin-left: 320px;
+    float: left;
+    width: 700px;
+    height: 370px;
+}
+
+.mod_misional{
+    margin-top: 102px;
+    margin-left: 103px;
+}
+.mod_prestamo{
+    margin-top: -238px;
+    margin-left: 402px;
+}
