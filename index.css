@@ -1,81 +1,63 @@
-*{margin: 0; padding: 0;}
+html, body{
+    margin: 0;
+    padding: 0;
+}
 
 body{
-    font-family: sans-serif;
     background-color: #CCCCCC;
+    font-family: sans-serif;
 }
 
 div{
+    border-style: solid;
+    border-width: 2px;
     background-color: #FFFFFF;
     margin: 10px;
 }
 
+input{
+    border: solid;
+    border-width: 1px;
+}
+
 #mainContent{
     margin: 0;
-    padding: 0;
+    width: 100%;
+    height: 650px;
 }
 
 #header{
-    /*position: absolute;
-    top: 0px;*/
     margin: 0;
-    padding: 0;
     width: 100%;
-    height: 126px;
-    float: left;
+    height: 135px;
 }
 
-#logo-jdc{
+#content{
+    float: left;
+    width: 880px;
+    height: 414px;
+}
+
+#footer{
+    float: left;
+    margin:0;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+}
+
+#logo{
     margin: 15px;
     width: 107px;
     height: 100px;
 }
 
 #titulo{
-    border-width: 0px;
-    margin-top: -89px;
-    margin-left: 150px;
-    font-size: 34px;
-    width: 450px;
-}
-
-#content{
-    position:absolute;
-	top:50%;
-	left:50%;
-	width:470px;
-	height:250px;
-	margin-left:-200px;
-	margin-top:-115px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #000000;
-}
-
-#footer{
     position: absolute;
-    bottom: 0px;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
-#universidad{
-    margin-top: 6px;
-}
-
-#ano{
-    margin-bottom: 6px;
-}
-
-#usuario {
-    margin-top: 84px;
-}
-
-#ingreso_btn{
-    font-size: 20px;
-    top: 180px;
-    left: 166px;
+    top:35px;
+    left: 150px;
+    border-width: 0px;
+    font-size: 34px;
 }
 
 .content_login {
@@ -105,4 +87,34 @@ div{
 .botones:hover{
     background-color: #000000;
     color: #FFFFFF;
+}
+
+#titulo_content{
+    border-width: 0px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+#content_list{
+    width: 850px;
+    height: 310px;
+    overflow: scroll;
+}
+
+.item_list{
+    width: 120px;
+    height: 160px;
+    float: left;
+}
+
+.item_list #foto{
+    width: 90px;
+    height: 90px;
+    margin: 12px;
+}
+
+.item_list div{
+    margin: 0px;
+    border-width: 0px;
+    text-align: center;
 }
