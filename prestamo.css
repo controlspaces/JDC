@@ -1,0 +1,47 @@
+a{
+	text-decoration: none;
+}
+
+#ruta_navegacion{
+	margin: 0;
+    float: left;
+    width: 99%;
+    height: 40px;
+
+}
+
+#ruta_navegacion div{
+	border-width: 0px;
+}
+
+#regresar{
+	font-size: 19px;
+}
+#next{
+	margin-left: 4px;
+}
+
+#content_autorizacion{
+	float: left;
+    width: 81.5%;
+    height: auto;
+}
+
+#content_autorizacion input{
+	border-radius: 8px;
+	margin-top: 390px;
+	margin-left: 550px;
+	margin-bottom: 23px;
+}
+
+#content_autorizacion input:hover{
+	background-color: #000000;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.navegacion{
+	width: auto;
+	float: left;
+	margin-top:10px; 
+}
