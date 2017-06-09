@@ -40,6 +40,10 @@ li{
     display:block;
 }
 
+.sub li{
+    border-width: 0px;
+}
+
 .sub li a{
 	background-color: #FFFFFF;
 	color: #000000;
